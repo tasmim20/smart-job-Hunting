@@ -91,7 +91,7 @@ const ContactPage = () => {
               placeholder="Message"
               required
               className="col-span-1 md:col-span-2 p-3 rounded bg-white border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-              rows="4"
+              rows={4}
             />
             <div className="col-span-1 md:col-span-2">
               <label className="flex items-center space-x-2">

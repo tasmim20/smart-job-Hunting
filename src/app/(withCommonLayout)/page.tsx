@@ -2,11 +2,11 @@ import Categories from "../component/Categories";
 import Footer from "../component/Footer";
 import Header from "../component/Header";
 import JobCategoryCard from "../component/JobCategoryCard";
-import RecentWork from "../component/RecentWork";
-// import TestimonialSection from "../component/TestimonialSection";
 
+import TestimonialSection from "../component/TestimonialSection";
 import WeDeliver from "../component/WeDeliver";
 import WhyUs from "../component/WhyUs";
+import CvResumeTemplate from "../component/cvResumeTemplate";
 
 export default function Home() {
   return (
@@ -15,12 +15,11 @@ export default function Home() {
       <div className="bg-gradient-to-b from-indigo-50 to-white">
         <Categories />
         <JobCategoryCard />
+        <CvResumeTemplate />
         <WhyUs />
         <WeDeliver />
-        <RecentWork />
+        <TestimonialSection />
       </div>
-
-      {/* <TestimonialSection /> */}
     </div>
   );
 }

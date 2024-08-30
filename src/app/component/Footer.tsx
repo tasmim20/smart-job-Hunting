@@ -128,7 +128,7 @@ const Footer = () => {
       </div>
 
       {/* Fixed buttons */}
-      <button
+      {/* <button
         className="fixed top-30 right-4 bg-white p-2 rounded-full shadow-md"
         aria-label="Settings"
       >
@@ -139,7 +139,7 @@ const Footer = () => {
         aria-label="Scroll to top"
       >
         <ArrowUp className="w-6 h-6 text-gray-600" />
-      </button>
+      </button> */}
     </footer>
   );
 };

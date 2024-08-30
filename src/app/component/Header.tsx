@@ -12,12 +12,9 @@ const Home = () => {
       style={{ backgroundColor: "#f4f6ff" }}
       className="min-h-screen bg-gradient-to-br flex flex-col relative overflow-hidden pt-5"
     >
-      {/* Net background */}
       <div className="absolute inset-0 bg-net opacity-10"></div>
 
-      <header className="w-full h-6 p-4 flex justify-end z-10">
-        {/* <Settings className="h-6 w-6" /> */}
-      </header>
+      <header className="w-full h-6 p-4 flex justify-end z-10"></header>
 
       <main className="flex-grow flex flex-col lg:flex-row items-center px-8 lg:px-16 z-10">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
@@ -25,8 +22,8 @@ const Home = () => {
             We Have 208,000+ Live Jobs
           </p>
           <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-            Your <span style={{ color: "#3e94e4" }}>Dream Job</span> Is <br />{" "}
-            Waiting For You
+            Hunting <span style={{ color: "#3e94e4" }}> Job</span> With <br />{" "}
+            Smart Job kit
           </h1>
           <p style={{ color: "#3e94e4" }} className="mb-6">
             Type your keyword, then click search to find your perfect job.
@@ -105,14 +102,14 @@ const Home = () => {
         </div>
       </main>
 
-      <div className="fixed left-4 bottom-4 flex flex-col space-y-4 z-10">
+      {/* <div className="fixed left-4 bottom-4 flex flex-col space-y-4 z-10">
         <div className="bg-teal-500 p-2 rounded-full shadow-md">
           <Headphones className="text-white bg-teal-500 h-6 w-6" />
         </div>
         <div className="bg-green-500 p-2 rounded-full shadow-md">
           <ShoppingCart className="text-white bg-green-500 h-6 w-6" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

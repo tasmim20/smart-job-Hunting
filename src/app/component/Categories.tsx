@@ -4,7 +4,7 @@ import { Search, FileText, UserPlus, CheckCircle } from "lucide-react";
 const steps = [
   {
     icon: Search,
-    title: "Search Jobs",
+    title: "Cover-letter/Email",
     description: "The standard chunk of used below of those interested.",
   },
   {
@@ -14,7 +14,7 @@ const steps = [
   },
   {
     icon: UserPlus,
-    title: "Create Account",
+    title: "Currency Converter",
     description: "The standard chunk of used below of those interested.",
   },
   {
